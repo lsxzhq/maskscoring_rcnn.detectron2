@@ -124,7 +124,7 @@ setup(
     python_requires=">=3.6",
     install_requires=[
         "termcolor>=1.1",
-        "Pillow==7.1.0",  # torchvision currently does not work with Pillow 7
+        "Pillow==8.3.2",  # torchvision currently does not work with Pillow 7
         "yacs>=0.1.6",
         "xai-image-widget",
         "google-cloud-bigquery-storage",
